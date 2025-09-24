@@ -23,3 +23,20 @@ Type a phrase and watch the model predict the next word, bringing a little myste
 ```bash
 git clone https://github.com/tarupathak30/next_word_predictor_lstm.git
 cd next_word_predictor_lstm
+
+## 🔹Create a virtual environment
+python -m venv .venv
+
+## 🔹 Activate the environment
+
+Windows (PowerShell):
+
+.\.venv\Scripts\Activate.ps1
+
+
+Linux / Mac:
+
+source .venv/bin/activate
+
+## 🔹 Install dependencies
+pip install -r requirements.txt
