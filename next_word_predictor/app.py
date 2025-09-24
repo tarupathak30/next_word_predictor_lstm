@@ -28,7 +28,6 @@ st.write("Type a phrase or choose a starter sentence and see what the model pred
 
 starter_sentences = [
     "The detective stared",
-    "A tapping sound came",
     "Gas lamps flickered",
     "Footsteps echoed",
     "The clock struck midnight",
@@ -38,6 +37,7 @@ starter_sentences = [
     "Something was hidden",
     "The window rattled",
     "The floorboards groaned",
+    "A tapping sound came",
 ]
 
 
