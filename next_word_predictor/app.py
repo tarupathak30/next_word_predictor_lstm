@@ -27,7 +27,6 @@ st.write("Type a phrase or choose a starter sentence and see what the model pred
 
 
 starter_sentences = [
-    "I entered the room",
     "The detective stared",
     "A tapping sound came",
     "Gas lamps flickered",
