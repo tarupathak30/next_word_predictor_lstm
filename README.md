@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Sherlock Holmes Next Word Predictor
+# 🕵️‍♂️ Next Word Predictor
 
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python)]()
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.26-green?logo=streamlit)]()
@@ -8,6 +8,10 @@ A **next-word prediction app** trained on the Sherlock Holmes corpus using **LST
 Type a phrase and watch the model predict the next word, bringing a little mystery to your text! 🕵️‍♀️
 
 ---
+
+## 🚀 Demo
+Check out the live app here: [Next Word Prediction App](https://tp35-next-word-prediction.streamlit.app/)
+
 
 ## 🔹 Features
 - Predict the next word based on your input sentence.
