@@ -10,13 +10,13 @@ import streamlit as st
 @st.cache_resource
 def load_model():
     import tensorflow as tf
-    model = tf.keras.models.load_model("models//next_word_model.keras", compile=False)
+    model = tf.keras.models.load_model("models/next_word_model.keras", compile=False)
     return model
 
 model = load_model()
 
 # tokenizer
-with open("models\\token.pkl", "rb") as f: 
+with open("models/token.pkl", "rb") as f: 
     tokenizer = pickle.load(f)
     
 
