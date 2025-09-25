@@ -4,13 +4,15 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle 
 import numpy as np
 import streamlit as st 
+from pathlib import Path
 
+MODEL_PATH = Path(__file__).parent / "models/next_word_model.keras"
 
 #Load model once at startup
 @st.cache_resource
 def load_model():
     import tensorflow as tf
-    model = tf.keras.models.load_model("models/next_word_model.keras", compile=False)
+    model = tf.keras.models.load_model(MODEL_PATH, compile=False)
     return model
 
 model = load_model()
