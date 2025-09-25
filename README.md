@@ -1,5 +1,11 @@
 # 🕵️‍♂️ Next Word Predictor
 
+## Demo
+
+Check out the live demo of the **Next Word Predictor**:
+
+[🚀 Launch the App](https://nextwordpredictorlstm-k9c57vdm9punyby6orjp8v.streamlit.app/)
+
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python)]()
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.26-green?logo=streamlit)]()
 [![License](https://img.shields.io/badge/license-MIT-yellow)]()
