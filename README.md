@@ -9,8 +9,6 @@ Type a phrase and watch the model predict the next word, bringing a little myste
 
 ---
 
-## 🚀 Demo
-Check out the live app here: [Next Word Prediction App](https://tp35-next-word-prediction.streamlit.app/)
 
 
 ## 🔹 Features
