@@ -6,6 +6,8 @@ import numpy as np
 import streamlit as st 
 from pathlib import Path
 
+TOKEN_PATH = Path(__file__).parent / "models/token.pkl"
+
 MODEL_PATH = Path(__file__).parent / "models/next_word_model.keras"
 
 #Load model once at startup
@@ -18,7 +20,7 @@ def load_model():
 model = load_model()
 
 # tokenizer
-with open("models/token.pkl", "rb") as f: 
+with open(TOKEN_PATH, "rb") as f: 
     tokenizer = pickle.load(f)
     
 
